@@ -15,8 +15,8 @@ before_deploy:
 deploy:
   provider: script
   script:
-    docker tag docker-to-aws-with-java:latest leandrocgsi/docker-to-aws-with-java:latest;
-    docker push leandrocgsi/docker-to-aws-with-java;
+    docker tag docker-to-aws-with-java:latest viniciuscostafranca/docker-to-aws-with-java:latest;
+    docker push viniciuscostafranca/docker-to-aws-with-java;
   on:
     branch: master
 notifications:
